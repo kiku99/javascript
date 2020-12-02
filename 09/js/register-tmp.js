@@ -1,6 +1,6 @@
 var userId = document.querySelector("#user-id");  // ‘아이디’ 필드를 가져와 변수에 저장
 
-userId.onchage = checkId;
+userId.onchange = checkId;
 
 function checkId() {
   if (userId.value.length < 4 || userId.value.length > 15) {  // userId 필드 내용의 길이가 4 이하이거나 15 이상일 경우 실행
