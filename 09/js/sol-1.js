@@ -10,7 +10,7 @@ for(i=0; i<sideMenu.length; i++) {
         price += parseInt(this.value);
       }
       else {
-         price -= parseInt(this.value);        
+        price -= parseInt(this.value);        
       }
       total.value = price+"원";
     } 
